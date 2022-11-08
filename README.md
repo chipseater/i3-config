@@ -22,3 +22,4 @@ In this repo, you can browse the dotfiles that I use with arch and i3.
 - nordic-theme
 - breeze-icons
 - pfetch
+- neovim

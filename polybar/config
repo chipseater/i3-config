@@ -142,4 +142,10 @@ label-foreground = ${colors.primary}
 screenchange-reload = true
 pseudo-transparency = true
 
+[module/popup-calendar]
+type = custom/script
+exec = ~/polybar-scripts/popup-calendar.sh
+interval = 5
+click-left = ~/.config/calendar/script.sh --popup &
+
 ; vim:ft=dosini
