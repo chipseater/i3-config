@@ -63,6 +63,10 @@ floating_modifier $mod
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
 
+client.focused          #81a1c1 #81a1c1 #ffffff #2e9ef4   #285577
+client.focused_inactive #81a1c1 #81a1c1 #ffffff #484e50   #5f676a
+client.unfocused        #434c5e #434c5e #888888 #292d2e   #222222
+
 # start a terminal
 bindsym $mod+Return exec alacritty
 
@@ -78,7 +82,7 @@ bindsym $mod+d exec i3-dmenu-desktop --dmenu='rofi -dmenu'
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
 # launch pcmanfm
-bindsym $mod+n exec pcmanfm
+bindsym $mod+n exec --no-startup-id pcmanfm
 
 # change focus
 bindsym $mod+j focus left
@@ -210,6 +214,8 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+bindsym $mod+Print exec import ~/Pictures/ss.png
 
 # Enable float for the calendar
 for_window [class="Yad" title="yad-calendar"] floating enable
