@@ -10,7 +10,6 @@ In this repo, you can browse the dotfiles that I use with arch and i3.
 - nitrogen
 - picom
 - i3-autolayout
-- *(discord)*
 - pulseaudio
 - playerctl
 - alacritty
@@ -18,7 +17,7 @@ In this repo, you can browse the dotfiles that I use with arch and i3.
 - pcmanfm
 - polybar
 - fish
-- ttf-fira-code
+- ttf-fira-code and its nerd font
 - nordic-theme
 - breeze-icons
 - pfetch

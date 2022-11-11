@@ -12,7 +12,7 @@ shell:
   program: /usr/bin/fish
 font:
   normal:
-    family: FiraCode
+    family: "FiraCode Nerd Font Mono"
     style: Regular 
 colors:
   primary:

@@ -5,3 +5,8 @@ if status is-interactive
 end
 
 pfetch
+
+alias rickroll="curl -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash"
+
+alias vim="nvim"
+
