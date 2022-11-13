@@ -46,6 +46,9 @@ exec_always --no-startup-id i3-autolayout autolayout
 # Launches discord
 exec --no-startup-id discord
 
+# Spotify ad muter
+exec_always --no-startup-id spotify-adkiller
+
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
@@ -61,7 +64,7 @@ floating_modifier $mod
 
 # move tiling windows via drag & drop by left-clicking into the title bar,
 # or left-clicking anywhere into the window while holding the floating modifier.
-tiling_drag modifier titlebar
+# tiling_drag modifier titlebar
 
 client.focused          #81a1c1 #81a1c1 #ffffff #2e9ef4   #285577
 client.focused_inactive #81a1c1 #81a1c1 #ffffff #484e50   #5f676a
@@ -84,11 +87,14 @@ bindsym $mod+d exec i3-dmenu-desktop --dmenu='rofi -dmenu'
 # launch pcmanfm
 bindsym $mod+n exec --no-startup-id pcmanfm
 
+# launch firefox
+bindsym $mod+w exec --no-startup-id firefox
+
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+m focus right
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -97,10 +103,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+m move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -109,7 +115,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+bindsym $mod+b split h
 
 # split in vertical orientation
 bindsym $mod+v split v

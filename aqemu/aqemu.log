@@ -1,0 +1,360 @@
+Type: Warning Num: 0
+Date: 2022.11.13 14:50:30 646
+Sender: int main( int argc, char *argv[] )
+Message: First Start Wizard Canceled!
+
+Type: Warning Num: 1
+Date: 2022.11.13 14:50:34 588
+Sender: bool Update_Emulators_List()
+Message: No emulators found in "/home/eric/.config/aqemu/"
+
+Type: Warning Num: 5
+Date: 2022.11.13 14:50:59 266
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/usr/bin/qemu-system-arm". Use default list
+
+Type: Error Num: 8
+Date: 2022.11.13 14:51:00 114
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 9
+Date: 2022.11.13 14:51:00 115
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/usr/bin/qemu-system-cris". Use default list
+
+Type: Error Num: 12
+Date: 2022.11.13 14:51:00 766
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 13
+Date: 2022.11.13 14:51:00 766
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/usr/bin/qemu-system-m68k". Use default list
+
+Type: Warning Num: 16
+Date: 2022.11.13 14:51:01 071
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get CPU's info from emulator "/usr/bin/qemu-system-microblaze". Use default list
+
+Type: Error Num: 17
+Date: 2022.11.13 14:51:01 262
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 18
+Date: 2022.11.13 14:51:01 262
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/usr/bin/qemu-system-microblaze". Use default list
+
+Type: Error Num: 21
+Date: 2022.11.13 14:51:01 725
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 22
+Date: 2022.11.13 14:51:01 726
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/usr/bin/qemu-system-mips". Use default list
+
+Type: Error Num: 25
+Date: 2022.11.13 14:51:02 206
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 26
+Date: 2022.11.13 14:51:02 206
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/usr/bin/qemu-system-mips64". Use default list
+
+Type: Error Num: 29
+Date: 2022.11.13 14:51:02 677
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 30
+Date: 2022.11.13 14:51:02 677
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/usr/bin/qemu-system-mips64el". Use default list
+
+Type: Error Num: 33
+Date: 2022.11.13 14:51:03 162
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 34
+Date: 2022.11.13 14:51:03 162
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/usr/bin/qemu-system-mipsel". Use default list
+
+Type: Error Num: 37
+Date: 2022.11.13 14:51:03 677
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 38
+Date: 2022.11.13 14:51:03 677
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/usr/bin/qemu-system-ppc". Use default list
+
+Type: Error Num: 41
+Date: 2022.11.13 14:51:04 216
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 42
+Date: 2022.11.13 14:51:04 216
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/usr/bin/qemu-system-ppc64". Use default list
+
+Type: Warning Num: 45
+Date: 2022.11.13 14:51:04 664
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/usr/bin/qemu-system-sh4". Use default list
+
+Type: Warning Num: 48
+Date: 2022.11.13 14:51:05 128
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/usr/bin/qemu-system-sh4eb". Use default list
+
+Type: Warning Num: 51
+Date: 2022.11.13 14:51:05 346
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get CPU's info from emulator "/usr/bin/qemu-system-sparc". Use default list
+
+Type: Error Num: 52
+Date: 2022.11.13 14:51:05 563
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 53
+Date: 2022.11.13 14:51:05 563
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/usr/bin/qemu-system-sparc". Use default list
+
+Type: Warning Num: 56
+Date: 2022.11.13 14:51:05 813
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get CPU's info from emulator "/usr/bin/qemu-system-sparc64". Use default list
+
+Type: Error Num: 57
+Date: 2022.11.13 14:51:07 880
+Sender: QStringList System_Info::Get_Emulator_Output( const QString &path, const QStringList &args )
+Message: Time left. File: "/usr/bin/qemu-system-sparc64" Args: "/usr/bin/qemu-system-sparc64"
+
+Type: Warning Num: 58
+Date: 2022.11.13 14:51:07 880
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/usr/bin/qemu-system-sparc64". Use default list
+
+Type: Error Num: 61
+Date: 2022.11.13 14:51:10 312
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 62
+Date: 2022.11.13 14:51:10 312
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/usr/bin/qemu-system-x86_64". Use default list
+
+Type: Warning Num: 66
+Date: 2022.11.13 14:51:11 023
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/bin/qemu-system-arm". Use default list
+
+Type: Error Num: 69
+Date: 2022.11.13 14:51:11 688
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 70
+Date: 2022.11.13 14:51:11 688
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/bin/qemu-system-cris". Use default list
+
+Type: Error Num: 73
+Date: 2022.11.13 14:51:12 146
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 74
+Date: 2022.11.13 14:51:12 146
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/bin/qemu-system-m68k". Use default list
+
+Type: Warning Num: 77
+Date: 2022.11.13 14:51:12 364
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get CPU's info from emulator "/bin/qemu-system-microblaze". Use default list
+
+Type: Error Num: 78
+Date: 2022.11.13 14:51:12 563
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 79
+Date: 2022.11.13 14:51:12 564
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/bin/qemu-system-microblaze". Use default list
+
+Type: Error Num: 82
+Date: 2022.11.13 14:51:13 018
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 83
+Date: 2022.11.13 14:51:13 018
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/bin/qemu-system-mips". Use default list
+
+Type: Error Num: 86
+Date: 2022.11.13 14:51:13 630
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 87
+Date: 2022.11.13 14:51:13 630
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/bin/qemu-system-mips64". Use default list
+
+Type: Error Num: 90
+Date: 2022.11.13 14:51:14 147
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 91
+Date: 2022.11.13 14:51:14 147
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/bin/qemu-system-mips64el". Use default list
+
+Type: Error Num: 94
+Date: 2022.11.13 14:51:14 616
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 95
+Date: 2022.11.13 14:51:14 616
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/bin/qemu-system-mipsel". Use default list
+
+Type: Error Num: 98
+Date: 2022.11.13 14:51:15 163
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 99
+Date: 2022.11.13 14:51:15 163
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/bin/qemu-system-ppc". Use default list
+
+Type: Error Num: 102
+Date: 2022.11.13 14:51:15 737
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 103
+Date: 2022.11.13 14:51:15 737
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/bin/qemu-system-ppc64". Use default list
+
+Type: Warning Num: 106
+Date: 2022.11.13 14:51:16 197
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/bin/qemu-system-sh4". Use default list
+
+Type: Warning Num: 109
+Date: 2022.11.13 14:51:16 732
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/bin/qemu-system-sh4eb". Use default list
+
+Type: Warning Num: 112
+Date: 2022.11.13 14:51:17 087
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get CPU's info from emulator "/bin/qemu-system-sparc". Use default list
+
+Type: Error Num: 113
+Date: 2022.11.13 14:51:17 451
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 114
+Date: 2022.11.13 14:51:17 452
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/bin/qemu-system-sparc". Use default list
+
+Type: Warning Num: 117
+Date: 2022.11.13 14:51:17 844
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get CPU's info from emulator "/bin/qemu-system-sparc64". Use default list
+
+Type: Error Num: 118
+Date: 2022.11.13 14:51:19 937
+Sender: QStringList System_Info::Get_Emulator_Output( const QString &path, const QStringList &args )
+Message: Time left. File: "/bin/qemu-system-sparc64" Args: "/bin/qemu-system-sparc64"
+
+Type: Warning Num: 119
+Date: 2022.11.13 14:51:19 938
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/bin/qemu-system-sparc64". Use default list
+
+Type: Error Num: 122
+Date: 2022.11.13 14:51:21 875
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 123
+Date: 2022.11.13 14:51:21 875
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/bin/qemu-system-x86_64". Use default list
+
+Type: Warning Num: 130
+Date: 2022.11.13 14:51:25 607
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppcemb" element!
+
+Type: Warning Num: 132
+Date: 2022.11.13 14:51:25 612
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppcemb" element!
+
+Type: Warning Num: 135
+Date: 2022.11.13 14:51:25 791
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppcemb" element!
+
+Type: Warning Num: 137
+Date: 2022.11.13 14:51:25 808
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppcemb" element!
+
+Type: Warning Num: 2
+Date: 2022.11.13 14:51:38 802
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppcemb" element!
+
+Type: Warning Num: 4
+Date: 2022.11.13 14:51:38 820
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppcemb" element!
+
+Type: Warning Num: 2
+Date: 2022.11.13 14:52:09 396
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppcemb" element!
+
+Type: Warning Num: 4
+Date: 2022.11.13 14:52:09 408
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppcemb" element!
+
+Type: Warning Num: 2
+Date: 2022.11.13 14:53:41 677
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppcemb" element!
+
+Type: Warning Num: 4
+Date: 2022.11.13 14:53:41 685
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppcemb" element!
+
