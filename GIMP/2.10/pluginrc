@@ -6,6 +6,45 @@
 (protocol-version 26)
 (file-version 5)
 
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-jxl/file-jxl" 1664385711
+    (proc-def "file-jxl-load" 1
+         "Loads JPEG XL image files"
+         "Loads JPEG XL image files"
+         "JPEG XL Project"
+         "JPEG XL Project"
+         "2019"
+         "JPEG XL image"
+         0
+        (icon icon-name -1 "")
+        (load-proc
+            (extensions "jxl")
+            (magics "0,string,ÿ\n,0,string,\\000\\000\\000\fJXL\\040\\015\\012‡\\012")
+            (mime-types "image/jxl"))
+         ""
+         3 1
+        (proc-arg 0 "run-mode" "Run mode")
+        (proc-arg 4 "filename" "The name of the file to load")
+        (proc-arg 4 "raw-filename" "The name of the file, as entered by the user")
+        (proc-arg 13 "image" "Loaded image"))
+    (proc-def "file-jxl-save" 1
+         "Saves JPEG XL image files"
+         "Saves JPEG XL image files"
+         "JPEG XL Project"
+         "JPEG XL Project"
+         "2019"
+         "JPEG XL image"
+         0
+        (icon icon-name -1 "")
+        (save-proc
+            (extensions "jxl")
+            (mime-types "image/jxl"))
+         "RGB*, GRAY*"
+         5 0
+        (proc-arg 0 "run-mode" "Run mode")
+        (proc-arg 13 "image" "Input image")
+        (proc-arg 16 "drawable" "Drawable to save")
+        (proc-arg 4 "filename" "The name of the file to save")
+        (proc-arg 4 "raw-filename" "The name of the file to save")))
 (plug-in-def "${gimp_plug_in_dir}/plug-ins/web-browser/web-browser" 1663868925
     (proc-def "plug-in-web-browser" 1
          "Open an URL in the user specified web browser"
