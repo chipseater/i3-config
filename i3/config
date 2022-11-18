@@ -38,7 +38,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id nitrogen --restore
 
 # Launches picom (window compositor)
-exec --no-startup-id picom --experimental-backends
+exec picom
 
 # Launches alternate tiling
 exec_always --no-startup-id i3-autolayout autolayout
@@ -89,6 +89,8 @@ bindsym $mod+n exec --no-startup-id pcmanfm
 
 # launch firefox
 bindsym $mod+w exec --no-startup-id firefox
+
+bindsym $mod+c exec --no-startup-id code
 
 # change focus
 bindsym $mod+h focus left

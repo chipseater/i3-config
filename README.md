@@ -17,8 +17,9 @@ In this repo, you can browse the dotfiles that I use with arch and i3.
 - pcmanfm
 - polybar
 - fish
-- ttf-fira-code and its nerd font
+- ttf-fira-code
 - nordic-theme
 - breeze-icons
 - pfetch
 - neovim
+- yad-calendar
