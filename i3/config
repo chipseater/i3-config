@@ -38,7 +38,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id nitrogen --restore
 
 # Launches picom (window compositor)
-exec picom
+exec --no-startup-id picom
 
 # Launches alternate tiling
 exec_always --no-startup-id i3-autolayout autolayout
